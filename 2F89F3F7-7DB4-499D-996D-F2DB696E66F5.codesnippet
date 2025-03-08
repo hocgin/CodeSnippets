@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>view</string>
+	<string>.let</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#name#&gt;: View {
-    var body: some View {
-        &lt;#body#&gt;
-    }
-}</string>
+	<string>let &lt;#name#&gt; = &lt;#expression#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7DA67A47-C38E-4EAD-9E34-E75CCEBD3928</string>
+	<string>2F89F3F7-7DB4-499D-996D-F2DB696E66F5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义一个 View</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View</string>
+	<string>postfix.let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
