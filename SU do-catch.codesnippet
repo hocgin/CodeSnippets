@@ -10,10 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>do {
-                                
-                            } catch {
-                                debugPrint("error = \(error)")
-                            }</string>
+    <#function body#>
+} catch {
+    debugPrint("error = \(error)")
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>067BAD2C-9283-45B8-B9C2-DE54196B1CC1</string>
 	<key>IDECodeSnippetLanguage</key>

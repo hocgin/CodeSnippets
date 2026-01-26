@@ -10,20 +10,20 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@ChartContentBuilder
-            var HourlyChatView: some ChartContent {
-                ForEach(data, id: \.datetime) {
-                    LineMark(
-                        x: .value("Date", $0.datetime),
-                        y: .value("Value", $0.value),
-                        series: .value("Series", "AQI")
-                    )
-                    .foregroundStyle(
-                        getLineColor($0.value).gradient
-                    )
-                    .interpolationMethod(.catmullRom)
-                    .lineStyle(.init(lineWidth: 3))
-                }
-            }</string>
+var <#Name#>: some ChartContent {
+    ForEach(data, id: \.datetime) {
+        LineMark(
+            x: .value("Date", $0.datetime),
+            y: .value("Value", $0.value),
+            series: .value("Series", "AQI")
+        )
+        .foregroundStyle(
+            getLineColor($0.value).gradient
+        )
+        .interpolationMethod(.catmullRom)
+        .lineStyle(.init(lineWidth: 3))
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3F0A0E2E-E0E9-4B7A-ACFB-EA08F157CFCA</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -10,14 +10,14 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@MainActor @AxisContentBuilder
-    private func ChartYAxisView() -&gt; some AxisContent {
-        AxisMarks(
-            position: .leading,
-            values: rect.yMarkValues
-        ) {
-            
-        }
-    }</string>
+private func ChartYAxisView() -&gt; some AxisContent {
+    AxisMarks(
+        position: .leading,
+        values: rect.yMarkValues
+    ) {
+        <#function body#>
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FB23B17C-9572-49DA-993B-DA3F8B79EEED</string>
 	<key>IDECodeSnippetLanguage</key>

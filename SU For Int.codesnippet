@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>ForEach(0..&lt;&lt;#input#&gt;) { index in
-                   
+    <#function body#>
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2100C1B6-3821-40D0-9225-664A2734A50D</string>
