@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>live_activity_entry</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import ActivityKit
+import WidgetKit
+import SwiftUI
+import SharedAit
+
+extension &lt;#name#&gt; {
+    struct EntryWidget: Widget {
+        var body: some WidgetConfiguration {
+            ActivityConfiguration(for: ClockAttributes.self) { context in
+                //            context.state
+                VStack {
+                    Text("锁屏页面")
+                }
+                .activityBackgroundTint(Color.black)
+                .activitySystemActionForegroundColor(Color.black)
+                
+            } dynamicIsland: { context in
+                DynamicIsland {
+                    DynamicIslandExpandedRegion(.center) {
+                        Text("悬浮-大")
+                    }
+                } compactLeading: {
+                    Text("悬浮-中-前")
+                } compactTrailing: {
+                    Text("悬浮-中-后")
+                } minimal: {
+                    Text("悬浮-小")
+                }
+                .keylineTint(Color.red)
+            }
+        }
+    }
+}
+
+
+// MARK: - 预览
+#Preview(
+    ".dynamicIsland(.expanded)",
+    as: .dynamicIsland(.expanded),
+    using: ClockAttributes.preview
+) {
+    &lt;#name#&gt;.EntryWidget()
+} contentStates: {
+    ClockAttributes.ContentState.placeholder
+}
+
+#Preview(
+    ".dynamicIsland(.compact)",
+    as: .dynamicIsland(.compact),
+    using: ClockAttributes.preview
+) {
+    &lt;#name#&gt;.EntryWidget()
+} contentStates: {
+    ClockAttributes.ContentState.placeholder
+}
+
+
+#Preview(
+    ".dynamicIsland(.minimal)",
+    as: .dynamicIsland(.minimal),
+    using: ClockAttributes.preview
+) {
+    &lt;#name#&gt;.EntryWidget()
+} contentStates: {
+    ClockAttributes.ContentState.placeholder
+}
+
+
+#Preview(".content", as: .content, using: ClockAttributes.preview) {
+    &lt;#name#&gt;.EntryWidget()
+} contentStates: {
+    ClockAttributes.ContentState.placeholder
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>97442002-1F97-413E-B411-CA00D494EEE5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Live Activity &amp; Entry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
