@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>live_activity_ui</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import WidgetKit
+import SwiftUI
+
+public enum &lt;#name#&gt; { }
+
+
+public extension &lt;#name#&gt; {
+    
+    struct DynamicIslandContent: View {
+        public var body: some View {
+            Text("Hello, World!")
+        }
+    }
+    
+    struct DynamicIslandContentLeading: View {
+        public var body: some View {
+            Text("Hello, World!")
+        }
+    }
+    
+    struct DynamicIslandContentTrailing: View {
+        public var body: some View {
+            Text("Hello, World!")
+        }
+    }
+    
+    struct DynamicIslandMinimal: View {
+        public var body: some View {
+            Text("Hello, World!")
+        }
+    }
+}
+
+#if DEBUG
+#Preview {
+    &lt;#name#&gt;.DynamicIslandContent()
+}
+#endif
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>84DCE8E4-A07C-4EFE-8FDD-A0F2B141C5E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Live Activity &amp; UI</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
