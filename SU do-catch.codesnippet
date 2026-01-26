@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>do {
-    <#function body#>
+    &lt;#function body#&gt;
 } catch {
     debugPrint("error = \(error)")
 }</string>

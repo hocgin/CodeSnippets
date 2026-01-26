@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@ChartContentBuilder
-var <#Name#>: some ChartContent {
+var &lt;#Name#&gt;: some ChartContent {
     ForEach(data, id: \.datetime) {
         LineMark(
             x: .value("Date", $0.datetime),
