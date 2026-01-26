@@ -17,23 +17,6 @@ import AppIntents
 enum &lt;#name#&gt; {
     
 }
-// MARK: - View
-extension &lt;#name#&gt; {
-    struct EntryWidget: Widget {
-        let kind: String = WidgetKeys.unknown.id
-
-        var body: some WidgetConfiguration {
-            AppIntentConfiguration(
-                kind: kind,
-                intent: DataConfiguration.self,
-                provider: DataProvider()
-            ) { entry in
-                EntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
-            }
-        }
-    }
-}
 // MARK: - Data
 extension &lt;#name#&gt; {
     struct DataEntry: TimelineEntry {
@@ -48,10 +31,10 @@ extension &lt;#name#&gt; {
         }
     }
     struct DataConfiguration: WidgetConfigurationIntent {
-        static var title: LocalizedStringResource { "Configuration" }
-        static var description: IntentDescription {
-            "This is an example widget."
+        public static var persistentIdentifier: String {
+            "in.hocg.app.widget.&lt;#name#&gt;"
         }
+        static var title: LocalizedStringResource { "Configuration" }
 
         // An example configurable parameter.
         @Parameter(title: "Favorite Emoji", default: "😃")
