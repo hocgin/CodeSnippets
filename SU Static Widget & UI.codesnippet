@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swidget_ui</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Foundation
+import SwiftUI
+import WidgetKit
+
+public enum &lt;#name#&gt; { }
+
+
+// MARK: - Data
+public extension &lt;#name#&gt; {
+    struct DataEntry: TimelineEntry {
+        public let date: Date
+        public init(date: Date = .now) {
+            self.date = date
+        }
+    }
+    
+    struct EntryView: View {
+        let entry: DataProvider.Entry
+        public init(entry: DataProvider.Entry) {
+            self.entry = entry
+        }
+        
+        public var body: some View {
+            Text("MoonPhase")
+        }
+    }
+    
+    struct DataProvider: TimelineProvider {
+        public init() {}
+        
+        public func placeholder(in context: Context) -&gt; DataEntry {
+            DataEntry()
+        }
+
+        public func getSnapshot(
+            in context: Context,
+            completion: @escaping (DataEntry) -&gt; ()
+        ) {
+            let entry = DataEntry()
+            completion(entry)
+        }
+
+        public func getTimeline(
+            in context: Context,
+            completion: @escaping (Timeline&lt;DataEntry&gt;) -&gt; ()
+        ) {
+            let entry = DataEntry()
+            completion(.init(entries: [entry], policy: .atEnd))
+        }
+    }
+}
+
+public extension &lt;#name#&gt;.DataEntry {
+    @MainActor static let placeholder: Self = .init(
+        date: .now
+    )
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8F05D01D-0292-465C-880B-F0402D6B7F06</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Static Widget &amp; UI</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

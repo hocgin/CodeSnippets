@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>view</string>
+	<string>docatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#name#&gt;: View {
-    var body: some View {
-        &lt;#body#&gt;
-    }
-}</string>
+	<string>do {
+                                
+                            } catch {
+                                debugPrint("error = \(error)")
+                            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7DA67A47-C38E-4EAD-9E34-E75CCEBD3928</string>
+	<string>067BAD2C-9283-45B8-B9C2-DE54196B1CC1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义一个 View</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View</string>
+	<string>SU do-catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

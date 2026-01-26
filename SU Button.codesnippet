@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>.let</string>
+	<string>sbt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt; = &lt;#expression#&gt;</string>
+	<string>Button(action: {
+  
+}, label: {
+  Text("&lt;#input#&gt;") 
+})</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F89F3F7-7DB4-499D-996D-F2DB696E66F5</string>
+	<string>56356ED5-F34B-4B00-AFB9-5986D76FAA82</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>postfix.let</string>
+	<string>SU Button</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

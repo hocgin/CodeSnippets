@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ccv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@ChartContentBuilder
+            var HourlyChatView: some ChartContent {
+                ForEach(data, id: \.datetime) {
+                    LineMark(
+                        x: .value("Date", $0.datetime),
+                        y: .value("Value", $0.value),
+                        series: .value("Series", "AQI")
+                    )
+                    .foregroundStyle(
+                        getLineColor($0.value).gradient
+                    )
+                    .interpolationMethod(.catmullRom)
+                    .lineStyle(.init(lineWidth: 3))
+                }
+            }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3F0A0E2E-E0E9-4B7A-ACFB-EA08F157CFCA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Chart Content View</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

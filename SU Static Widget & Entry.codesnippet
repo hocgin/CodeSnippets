@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swidget_entry</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import SharedAit
+import WidgetKit
+import SwiftUI
+
+// MARK: - View
+extension &lt;#name#&gt; {
+    struct EntryWidget: Widget {
+        static let KEY = WidgetKeys.MoonPhase
+        let kind: String = Self.KEY.id
+
+        var body: some WidgetConfiguration {
+            StaticConfiguration(
+                kind: kind,
+                provider: DataProvider()
+            ) { entry in
+                EntryView(entry: entry)
+                    .containerBackground(.ultraThinMaterial, for: .widget)
+            }
+            .contentMarginsDisabled()
+            .configurationDisplayName(Self.KEY.displayName)
+            .description(Self.KEY.description)
+            .supportedFamilies([
+                .systemMedium,
+                .systemSmall
+            ])
+        }
+    }
+}
+
+#if DEBUG
+
+#Preview(as: .systemMedium) {
+    &lt;#name#&gt;.EntryWidget()
+} timeline: {
+    &lt;#name#&gt;.DataEntry()
+}
+#endif
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DAB07D87-04B5-493E-8A1B-593A0DBDC1E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Static Widget &amp; Entry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

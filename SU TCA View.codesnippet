@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tcav</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//
+//  Location.swift
+//  LocationExample
+//
+//  Created by hocgin on 10/23/25.
+//
+
+import ComposableArchitecture
+import SwiftTCACore
+import SwiftUI
+public extension SwiftTCACore {
+    enum &lt;#input#&gt; {}
+}
+
+extension SwiftTCACore.&lt;#input#&gt; {
+    struct &lt;#input#&gt;View: View {
+        @Bindable var store: StoreOf&lt;Store&gt;
+        public init(store: StoreOf&lt;Store&gt;) {
+            self.store = store
+        }
+        public var body: some View {
+            Text("&lt;#input#&gt;View")
+        }
+    }
+}
+
+
+extension SwiftTCACore.&lt;#input#&gt;.&lt;#input#&gt;View {
+    @Reducer
+    public struct Store {
+        public init() {}
+        @ObservableState public struct State: Equatable, Sendable {
+            public init() {  }
+        }
+
+        public enum Action: BindableAction, Sendable {
+            case binding(BindingAction&lt;State&gt;)
+            case onAppear
+        }
+
+        public var body: some ReducerOf&lt;Self&gt; {
+            BindingReducer()
+            Reduce(core)
+        }
+
+        func core(into state: inout State, action: Action) -&gt; Effect&lt;Action&gt; {
+            switch action {
+            default:
+                return .none
+            }
+        }
+    }
+}
+
+typealias &lt;#input#&gt;View = SwiftTCACore.&lt;#input#&gt;.&lt;#input#&gt;View
+
+extension &lt;#input#&gt;View.Store.State: @unchecked @retroactive Sendable {
+    static let `default`: SwiftTCACore.&lt;#input#&gt;.&lt;#input#&gt;View.Store.State = .init()
+}
+
+
+
+#if DEBUG
+#Preview {
+    let store = Store(
+        initialState: &lt;#input#&gt;View.Store.State(),
+        reducer: &lt;#input#&gt;View.Store.init
+    )
+    &lt;#input#&gt;View(store: store)
+}
+#endif
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>022CF2C6-CD6B-4B8B-A21B-D5A12F44D320</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU TCA View</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

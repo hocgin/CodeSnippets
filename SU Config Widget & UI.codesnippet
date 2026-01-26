@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>widget_config_entry</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import WidgetKit
+import SwiftUI
+import SharedAit
+import AppIntents
+import CacheKit
+import SharedAit
+import SwiftExtensionsKit
+
+
+
+// MARK: - View
+extension &lt;#name#&gt; {
+    struct EntryWidget: Widget {
+        static let KEY = WidgetKeys.&lt;#name#&gt;
+        let kind: String = Self.KEY.id
+
+        var body: some WidgetConfiguration {
+            AppIntentConfiguration(
+                kind: kind,
+                intent: ConfigurationIntent.self,
+                provider: DataProvider()
+            ) { entry in
+                EntryView(entry: entry)
+                    .containerBackground(.ultraThinMaterial, for: .widget)
+            }
+            .contentMarginsDisabled()
+            .configurationDisplayName(Self.KEY.displayName)
+            .description(Self.KEY.description)
+        }
+    }
+}
+
+#if DEBUG
+
+#Preview(as: .systemMedium) {
+    &lt;#name#&gt;.EntryWidget()
+} timeline: {
+    &lt;#name#&gt;.DataEntry(date: .now, configuration: .mock)
+}
+#endif
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2C36CD62-437F-4289-9766-03ED99871331</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SU Config Widget &amp; UI</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
