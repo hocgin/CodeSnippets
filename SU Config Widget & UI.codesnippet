@@ -14,19 +14,26 @@ import SwiftUI
 import SharedAit
 import AppIntents
 
-enum &lt;#name#&gt; {
+public enum &lt;#name#&gt; {
     
 }
 // MARK: - Data
-extension &lt;#name#&gt; {
+public extension &lt;#name#&gt; {
     struct DataEntry: TimelineEntry {
         var date: Date
         let configuration: DataConfiguration
+        public init(date: Date, configuration: DataConfiguration) {
+            self.date = date
+            self.configuration = configuration
+        }
     }
     struct EntryView : View {
         var entry: DataProvider.Entry
+        public init(entry: DataProvider.Entry) {
+            self.entry = entry
+        }
 
-        var body: some View {
+        public var body: some View {
             Text("View")
         }
     }
@@ -34,23 +41,26 @@ extension &lt;#name#&gt; {
         public static var persistentIdentifier: String {
             "in.hocg.app.widget.&lt;#name#&gt;"
         }
-        static var title: LocalizedStringResource { "Configuration" }
+        public static var title: LocalizedStringResource { "Configuration" }
+
+        public init () { }
 
         // An example configurable parameter.
         @Parameter(title: "Favorite Emoji", default: "😃")
-        var favoriteEmoji: String
+        public var favoriteEmoji: String?
     }
     
     struct DataProvider: AppIntentTimelineProvider {
-        func placeholder(in context: Context) -&gt; DataEntry {
+        public init() { }
+        public func placeholder(in context: Context) -&gt; DataEntry {
             DataEntry(date: Date(), configuration: DataConfiguration())
         }
 
-        func snapshot(for configuration: DataConfiguration, in context: Context) async -&gt; DataEntry {
+        public func snapshot(for configuration: DataConfiguration, in context: Context) async -&gt; DataEntry {
             DataEntry(date: Date(), configuration: configuration)
         }
-        
-        func timeline(for configuration: DataConfiguration, in context: Context) async -&gt; Timeline&lt;DataEntry&gt; {
+
+        public func timeline(for configuration: DataConfiguration, in context: Context) async -&gt; Timeline&lt;DataEntry&gt; {
             var entries: [DataEntry] = []
 
             // Generate a timeline consisting of five entries an hour apart, starting from the current date.
@@ -78,8 +88,8 @@ extension &lt;#name#&gt; {
 }
 // MARK: - Mock
 extension &lt;#name#&gt;.DataConfiguration {
-    static var mock: Self {
-        let intent = Self()
+    public static var mock: Self {
+        var intent = Self()
         intent.favoriteEmoji = "😀"
         return intent
     }
