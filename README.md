@@ -40,3 +40,17 @@ let baseURL = URL(string: "<#https://api.example.com#>")!
 
 ### 备用
 - ~~https://github.com/intitni/CopilotForXcode ~~
+
+### 安装
+```shell
+# 在仓库目录里执行
+./install.sh
+
+# 或者直接从 GitHub Raw 安装
+curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash
+
+curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash -s -- /Users/hocgin/Downloads
+
+# 也可以显式指定仓库目录
+bash /path/to/install.sh /path/to/CodeSnippets
+```
