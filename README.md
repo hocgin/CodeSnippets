@@ -49,7 +49,7 @@ let baseURL = URL(string: "<#https://api.example.com#>")!
 # 或者直接从 GitHub Raw 安装
 curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash
 
-curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash -s -- /Users/hocgin/Downloads
+curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash -s -- /Users/hocgin/Downloads/tmp
 
 # 也可以显式指定仓库目录
 bash /path/to/install.sh /path/to/CodeSnippets
