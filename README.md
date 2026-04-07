@@ -1,55 +1,14 @@
 # CodeSnippets
+> XCode Snippets
 > ~/Library/Developer/Xcode/UserData/CodeSnippets/
-
-### 占位符
-> <# ... #>
-
-```shell
-1. 默认值: 
-<#default: 3#> 
-
-2. 提示:
-let age: <#Int#>
-let callback: <#(Bool) -> Void#>
-let name: <#FuncName#>
-
-3. 函数/表达式
-let result = <#expression#>
-
-func fetchData() {
-    <#function body#>
-}
-
-4. 枚举
-let environment = "<#dev | test | prod#>"
-let logLevel: LogLevel = .<#debug / info / error#>
-
-5. 组合型占位符
-let apiKey = "<#API Key - required#>"
-let baseURL = URL(string: "<#https://api.example.com#>")!
-
-```
-
-
-### 主力
-- ~~[AI Copilot](https://github.com/github/CopilotForXcode)~~
-- ~~[格式化](https://github.com/nicklockwood/SwiftFormat)~~
-- [机翻插件](https://github.com/hidden-spectrum/swift-translate)
-
-
-
-### 备用
-- ~~https://github.com/intitni/CopilotForXcode ~~
 
 ### 安装
 ```shell
-# 在仓库目录里执行
-./install.sh
-
-# 或者直接从 GitHub Raw 安装
+# 直接从 GitHub Raw 安装
 curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash
 
-curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash -s -- ~/Downloads/tmp
+# 或者在仓库目录里执行
+./install.sh
 
 # 也可以显式指定仓库目录
 bash /path/to/install.sh /path/to/CodeSnippets
