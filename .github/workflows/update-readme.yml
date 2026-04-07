@@ -37,8 +37,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate HTML
-        id: catalog
-        uses: ./
+      - id: catalog
+        uses: hocgin/action-appstore-product-html@main
         with:
           developer-id: ${{ github.event_name == 'workflow_dispatch' && inputs.developer_id || '1745991813' }}
           country: ${{ github.event_name == 'workflow_dispatch' && inputs.country || 'us' }}
