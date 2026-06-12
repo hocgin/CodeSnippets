@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>view</string>
+	<string>sv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import SwiftUI
-
-struct &lt;#name#&gt;View: View {
-    var body: some View {
-        &lt;#name#&gt;
-    }
+	<string>@MainActor
+@ViewBuilder
+private var &lt;#name#&gt;: some View {
+    EmptyView()
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0B8DC15E-B45E-49ED-93E1-D55613B60107</string>
+	<string>C37E9C53-B198-4832-9A92-423F5B488147</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建视图</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SU View</string>
+	<string>SU View Function</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
