@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sbt</string>
+	<string>sv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>Button(action: {
-  
-}, label: {
-  Text("&lt;#input#&gt;") 
-})</string>
+	<string>@MainActor
+@ViewBuilder
+private var &lt;#name#&gt;: some View {
+    EmptyView()
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>56356ED5-F34B-4B00-AFB9-5986D76FAA82</string>
+	<string>D61F0F72-869C-4709-885E-E5A8B237DABA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SU Button</string>
+	<string>SU View Function</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

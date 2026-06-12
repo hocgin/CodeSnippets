@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>svf</string>
+	<string>docatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@MainActor
-@ViewBuilder
-private func &lt;#name#&gt;() -&gt; some View {
-    EmptyView()
-}
-</string>
+	<string>do {
+    &lt;#function body#&gt;
+} catch {
+    debugPrint("error = \(error)")
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>852D6760-57F5-44C4-ABC0-36FA83C100EC</string>
+	<string>272C269B-029D-40E4-AE0B-C6FE2F2D4874</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SU Function View</string>
+	<string>SU do-catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

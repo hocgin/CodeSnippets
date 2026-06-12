@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sv</string>
+	<string>mk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@MainActor
-@ViewBuilder
-private var &lt;#name#&gt;: some View {
-    EmptyView()
-}</string>
+	<string>// MARK: - &lt;#input#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C37E9C53-B198-4832-9A92-423F5B488147</string>
+	<string>73E4FCDF-41E9-4198-9E4A-895B622FAD8B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>打标签</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SU View Function</string>
+	<string>SU MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

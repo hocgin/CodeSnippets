@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mk</string>
+	<string>sbt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#input#&gt;</string>
+	<string>Button(action: {
+  
+}, label: {
+  Text("&lt;#input#&gt;") 
+})</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FD6B1C93-F5FA-4710-B6A6-2E0D70615784</string>
+	<string>DF08C32F-CB93-44E6-9099-E75ADDF4A23B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>打标签</string>
+	<string>组件.按钮</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SU MARK</string>
+	<string>SU Button</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
