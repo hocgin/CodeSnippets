@@ -18,7 +18,7 @@
 curl -fsSL https://raw.githubusercontent.com/hocgin/CodeSnippets/main/install.sh | bash
 
 # 或者在仓库目录里执行
-./install.sh
+./install.sh .
 
 # 也可以显式指定仓库目录
 bash /path/to/install.sh /path/to/CodeSnippets
@@ -29,7 +29,7 @@ bash /path/to/install.sh /path/to/CodeSnippets
 
 ```shell
 # 在仓库目录里执行
-./lnk.sh
+./lnk.sh .
 
 # 也可以显式指定仓库目录
 bash /path/to/lnk.sh /path/to/CodeSnippets
