@@ -20,7 +20,7 @@ private func &lt;#name#&gt;() -&gt; some View {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>编码.函数视图</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Function View</string>
 	<key>IDECodeSnippetUserSnippet</key>

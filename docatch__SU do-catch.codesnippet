@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>编码.拦截异常</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU do-catch</string>
 	<key>IDECodeSnippetUserSnippet</key>

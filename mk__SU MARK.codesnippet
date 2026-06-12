@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>打标签</string>
+	<string>注释.mark</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>

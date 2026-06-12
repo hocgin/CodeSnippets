@@ -55,7 +55,7 @@ extension &lt;#name#&gt; {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>组件.配置小组件&gt;入口</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Config Widget &amp; Entry</string>
 	<key>IDECodeSnippetUserSnippet</key>

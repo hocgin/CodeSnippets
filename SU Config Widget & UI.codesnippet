@@ -110,7 +110,7 @@ extension &lt;#name#&gt;.DataConfiguration {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Config Widget</string>
+	<string>组件.配置小组件&gt;共享UI</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Config Widget &amp; UI</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -21,7 +21,7 @@ struct &lt;#name#&gt;View: View {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建视图</string>
+	<string>组件.创建视图</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU View</string>
 	<key>IDECodeSnippetUserSnippet</key>

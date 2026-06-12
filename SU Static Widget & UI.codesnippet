@@ -72,7 +72,7 @@ public extension &lt;#name#&gt;.DataEntry {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>组件.静态小组件&gt;共享UI</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Static Widget &amp; UI</string>
 	<key>IDECodeSnippetUserSnippet</key>

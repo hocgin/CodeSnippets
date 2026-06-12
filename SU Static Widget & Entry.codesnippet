@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-    <string>widget_static_entry</string>
+	<string>widget_static_entry</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -52,7 +52,7 @@ extension &lt;#name#&gt; {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>组件.静态小组件&gt;入口</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Static Widget &amp; Entry</string>
 	<key>IDECodeSnippetUserSnippet</key>

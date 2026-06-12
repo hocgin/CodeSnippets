@@ -23,7 +23,7 @@ private func ChartYAxisView() -&gt; some AxisContent {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>组件.图表 Y-Axis</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Chart Axis Content</string>
 	<key>IDECodeSnippetUserSnippet</key>

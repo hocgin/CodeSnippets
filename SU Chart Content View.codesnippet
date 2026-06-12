@@ -29,7 +29,7 @@ var &lt;#Name#&gt;: some ChartContent {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>组件.图表 Chart Content</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SU Chart Content View</string>
 	<key>IDECodeSnippetUserSnippet</key>
