@@ -3,6 +3,7 @@
 <div markdown="1">
   <sup>Using <a href="https://logspot.hocgin.top" target="_blank">my apps</a> is also a way to <a href="https://logspot.hocgin.top/donate/" target="_blank">support</a> me:</sup>
   <br>
+  <a target="_blank" href="https://maslink.hocgin.top/?id=6818297365" title="FOCUS - Film Camera"><img alt="FOCUS - Film Camera" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/be/bd/2bbebddf-d0ed-fd38-99a4-fb63618180ad/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6800762440" title="DoTask: Plan &amp; Focus &amp; Review"><img alt="DoTask: Plan &amp; Focus &amp; Review" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/2c/0f/3b2c0f58-bc55-f76e-88af-79f836d792f5/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6762222185" title="FoxFeed: RSS Reader"><img alt="FoxFeed: RSS Reader" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/61/4f/ea614f59-61d5-dcb2-fb97-6cc8c91c7851/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6777452983" title="Time Flow:Lyubishchev TM"><img alt="Time Flow:Lyubishchev TM" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/9f/e5/d99fe522-ded7-f229-18ed-2a230b578a98/Placeholder.mill/100x100bb-75.webp"></a>
