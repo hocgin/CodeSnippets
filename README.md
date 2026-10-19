@@ -3,7 +3,7 @@
 <div markdown="1">
   <sup>Using <a href="https://logspot.hocgin.top" target="_blank">my apps</a> is also a way to <a href="https://logspot.hocgin.top/donate/" target="_blank">support</a> me:</sup>
   <br>
-  <a target="_blank" href="https://maslink.hocgin.top/?id=6819322032" title="DDUP - Type &amp; Learn"><img alt="DDUP - Type &amp; Learn" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/14/7b/bd147b4b-f99c-c836-ed4f-39d0d2d2cf44/Placeholder.mill/100x100bb-75.webp"></a>
+  <a target="_blank" href="https://maslink.hocgin.top/?id=6819322032" title="DDUP - Type &amp; Learn"><img alt="DDUP - Type &amp; Learn" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/3f/bb/ca3fbb73-89a6-80a2-4a0c-ecd464258f26/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6818297365" title="FOCUS - Film Camera"><img alt="FOCUS - Film Camera" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/be/bd/2bbebddf-d0ed-fd38-99a4-fb63618180ad/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6800762440" title="DoTask: Plan &amp; Focus &amp; Review"><img alt="DoTask: Plan &amp; Focus &amp; Review" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/f4/18/2cf418cd-1cfb-168a-74a8-c6aca4031032/Placeholder.mill/100x100bb-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6762222185" title="FoxFeed: RSS Reader"><img alt="FoxFeed: RSS Reader" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/61/4f/ea614f59-61d5-dcb2-fb97-6cc8c91c7851/Placeholder.mill/100x100bb-75.webp"></a>
