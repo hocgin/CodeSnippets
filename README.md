@@ -11,7 +11,8 @@
   <a target="_blank" href="https://maslink.hocgin.top/?id=6768043307" title="Cirra Weather"><img alt="Cirra Weather" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/47/71/754771e5-8bfb-e009-a863-a8c1d2868879/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6757922079" title="Earth Time - Clock and Weather"><img alt="Earth Time - Clock and Weather" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/5d/cc/f25dcc7d-eb72-6b4e-3991-9791c9ff256c/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6757073999" title="Floating Clocks"><img alt="Floating Clocks" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/3c/16/113c1691-a318-7fcb-5311-b066df1cebd1/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
-  <a target="_blank" href="https://maslink.hocgin.top/?id=6749814753" title="Echo Isle - White Noise"><img alt="Echo Isle - White Noise" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/3d/e8/d93de8a9-f901-442f-dcc4-d68777a78a06/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
+  <a target="_blank" href="https://maslink.hocgin.top/?id=6749814753" title="Echo Isle - White Noise"><img alt="Echo Isle - White Noise" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/98/61/ff9861f4-8b97-6fdb-130a-21ac795af4b9/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
+  <a target="_blank" href="https://maslink.hocgin.top/?id=6742808795" title="Brisa Weather: Forecast"><img alt="Brisa Weather: Forecast" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/73/73/29/7373298f-e9ef-f79e-5bed-399142739b24/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
 </div>
 <!-- APPSTORE_HTML_END -->
 
