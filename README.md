@@ -3,6 +3,7 @@
 <div markdown="1">
   <sup>Using <a href="https://logspot.hocgin.top" target="_blank">my apps</a> is also a way to <a href="https://logspot.hocgin.top/donate/" target="_blank">support</a> me:</sup>
   <br>
+  <a target="_blank" href="https://maslink.hocgin.top/?id=6806934348" title="Pocketo: Collect &amp; Keep"><img alt="Pocketo: Collect &amp; Keep" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/dd/7d/c8dd7da0-52ba-d713-13de-b588760a70ca/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6819322032" title="DDUP - Type &amp; Learn"><img alt="DDUP - Type &amp; Learn" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/fd/b8/8efdb883-7178-c319-cdef-bb927188a4fc/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6818297365" title="FOCUS - Film Camera"><img alt="FOCUS - Film Camera" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/be/bd/2bbebddf-d0ed-fd38-99a4-fb63618180ad/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
   <a target="_blank" href="https://maslink.hocgin.top/?id=6800762440" title="DoTask: Plan &amp; Focus &amp; Review"><img alt="DoTask: Plan &amp; Focus &amp; Review" height="52" width="52" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/a5/44/44a54498-4def-d4a8-2483-27e2d9ffa4e1/Placeholder.mill/100x100Icon.ApSiOS01-75.webp"></a>
